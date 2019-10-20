@@ -9,10 +9,10 @@ Create a semantic, user-friendly page in React with the following:
 1. The basic heycinema header, as seen in the styleguide
 2. A search bar that takes a string and calls the OMDb search endpoint on submit
 3. A list of search results, displayed as tiles, showing each result’s:
-  * image
-  * name
-  * rating
-  * and year of release
+    * image
+    * name
+    * rating
+    * and year of release
 4. Loading and error states
 
 Your app should be mobile-friendly, and take extensibility, maintainability, and state management into consideration.
