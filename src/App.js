@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
+import styled from 'styled-components';
 import Logo from './Logo';
 import Search from './Search';
 import Results from './Results';
-import './App.css';
+
+const AppWrapper = styled.main`
+  padding: 1rem;
+`;
 
 class App extends Component {
   state = {
@@ -50,7 +54,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <AppWrapper>
         <Logo/>
 
         <Search
@@ -60,7 +64,7 @@ class App extends Component {
         />
 
         <Results query={this.state.query} results={this.state.results} loading={this.state.loading}/>
-      </div>
+      </AppWrapper>
     );
   }
 }
