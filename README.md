@@ -1,12 +1,12 @@
 # hey cinema
 
-This is a coding challenge for HeyCar.
+This app is the result of a technical coding challenge to test my React skills for a job opportunity.
 
-## Requirements
+## The Task
 
 Create a semantic, user-friendly page in React with the following:
 
-1. The basic heycinema header, as seen in the styleguide
+1. The basic heycinema header, as seen in the styleguide (provided to me, but not included in repo)
 2. A search bar that takes a string and calls the OMDb search endpoint on submit
 3. A list of search results, displayed as tiles, showing each result’s:
     * image
