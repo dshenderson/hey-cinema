@@ -37,11 +37,14 @@ class App extends Component {
             return fetch(`${omdbAPI}?i=${imdbID}${paramApiKey}`)
               .then(r => r.json())
           })).then(results => {
-            this.setState({loading: false, results});
+            this.setState({results});
           });
         })
         .catch(error => {
           console.log({error});
+        })
+        .finally(() => {
+          this.setState({loading: false});
         });
     } else {
       this.setState({results: []});
