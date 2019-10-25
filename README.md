@@ -1,12 +1,12 @@
 # hey cinema
 
-This is a coding challenge for HeyCar.
+This app is the result of a technical coding challenge to test my React skills for a job opportunity.
 
-## Requirements
+## The Task
 
 Create a semantic, user-friendly page in React with the following:
 
-1. The basic heycinema header, as seen in the styleguide
+1. The basic heycinema header, as seen in the styleguide (provided to me, but not included in repo)
 2. A search bar that takes a string and calls the OMDb search endpoint on submit
 3. A list of search results, displayed as tiles, showing each result’s:
     * image
@@ -17,7 +17,14 @@ Create a semantic, user-friendly page in React with the following:
 
 Your app should be mobile-friendly, and take extensibility, maintainability, and state management into consideration.
 
-## To Do List
+## How to use
+
+This is the standard bit about doing `npm install`, `npm start`, and `npm build` (or the `yarn` alternatives).
+No need, really, to elaborate.
+
+I've hosted the app on http://hey-cinema.surge.sh/ if you want to kick the tyres and take the app for a spin.
+
+## What I might do differently
 
 This really is a basic app. Sadly, given a lack of spare time, I skipped over a few things:
 
@@ -31,10 +38,3 @@ This really is a basic app. Sadly, given a lack of spare time, I skipped over a 
 
 * It would be good to implement an Advanced Search which allows the user to specify any of title, type (movie, series,
   or episode), year, or plot (short or full), and perhaps also to filter the results by any number of criteria.
-
-## Installation
-
-To start the application:
-
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
