@@ -9,7 +9,7 @@
     "react-image": "^2.2.1",
     "react-loader-spinner": "^3.1.4",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "react-visibility-sensor": "^5.1.1",
     "styled-components": "^4.4.0"
   },
